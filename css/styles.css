@@ -432,26 +432,39 @@ img {
   background-color: var(--title-color);
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
+  align-items: center;
 }
 
 .footer-styles {
   border: 1px solid red;
+  max-width: 264px;
+  min-height: 110px;
 }
 
 .footter-studio {
   color: var(--logo-color);
 }
 .footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--logo-color);
+  display: flex;
   margin-top: 16px;
   margin-right: 120px;
 }
 /*-----FOOTER SOCIAL MEDIA--------*/
 .footer-social-media {
   border: 1px solid red;
+  max-width: 208px;
+  min-height: 80px;
 }
+
 .footer-social-media-title {
   margin-top: 100px;
+  margin-bottom: 16px;
+
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
@@ -461,6 +474,7 @@ img {
 .footer-social-media-list {
   justify-content: center;
   gap: 16px;
+  display: flex;
 }
 
 .footer-social-media-item {
