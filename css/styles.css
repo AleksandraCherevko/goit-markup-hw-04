@@ -439,7 +439,7 @@ img {
   margin-bottom: 100px;
   margin-left: 156px;
   width: 264px;
-  border: 1px solid red;
+  
 }
 
 .footer-text {
@@ -464,7 +464,7 @@ img {
   margin-top: 100px;
   margin-bottom: 100px;
   margin-left: 120px;
-  border: 1px solid red;
+
   max-width: 208px;
   min-height: 80px;
 }
