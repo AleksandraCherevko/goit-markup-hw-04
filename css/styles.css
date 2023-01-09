@@ -211,6 +211,7 @@ img {
   background-color: var(--accent-color);
   border: 0;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .slogan-button-style {
   display: flex;
@@ -418,6 +419,7 @@ img {
 }
 
 .footer-text {
+  padding-top: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -517,18 +519,17 @@ img {
   row-gap: 48px;
 }
 .portfolio-images-list {
-  width: calc ((100% - 48px) / 3);
-}
-
-.portfolio-images-list:hover,
-.portfolio-images-list:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-images-item {
   display: block;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.pportfolio-images-item:hover,
+.portfolio-images-item:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-images-work {
